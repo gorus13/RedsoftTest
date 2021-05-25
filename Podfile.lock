@@ -1,0 +1,86 @@
+PODS:
+  - Action (4.3.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - Alamofire (5.4.3)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (~> 5.2)
+    - ObjectMapper (~> 4.2)
+  - Differentiator (5.0.0)
+  - Nuke (9.5.0)
+  - ObjectMapper (4.2.0)
+  - Realm (10.7.4):
+    - Realm/Headers (= 10.7.4)
+  - Realm/Headers (10.7.4)
+  - RealmSwift (10.7.4):
+    - Realm (= 10.7.4)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxNuke (2.0.1):
+    - Nuke (~> 9.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Action
+  - Alamofire
+  - AlamofireObjectMapper (from `https://github.com/RomanPodymov/AlamofireObjectMapper.git`)
+  - RealmSwift
+  - RxCocoa
+  - RxDataSources
+  - RxNuke
+  - RxSwift
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - Alamofire
+    - Differentiator
+    - Nuke
+    - ObjectMapper
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxNuke
+    - RxRelay
+    - RxSwift
+    - SwiftyJSON
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: a46c9010bf32d0c78ab9e56bdcf338987de4f000
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+SPEC CHECKSUMS:
+  Action: 9891cd1b0a9047557d7e58e8dfae743e19d08197
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireObjectMapper: abe058eaad24646e52bd6122f232020284cfd46a
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  Nuke: 6f400a4ea957e09149ec335a3c6acdcc814d89e4
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  Realm: f08ce1a85649a41303ecfe1cbd914c62e9e6d710
+  RealmSwift: 60ec49d165f23d040ab48811d8dd177e09baf4d3
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxNuke: 23175fb4b7cda4e3aa453588d895198ccf88f5ab
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: c1e758189dd2f28145a8870136fe9a6d7c07f366
+
+COCOAPODS: 1.10.1
